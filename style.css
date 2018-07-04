@@ -1,0 +1,190 @@
+.container{
+    margin:auto;
+    width:80%;
+  }
+  .mobile-outline{
+    margin:auto;
+    width:350px;
+    height:680px;
+    background:#1e1e1e;
+    border-radius:8px;
+    display:flex;
+    flex-direction:column;
+    border:3px solid #000;
+    box-shadow:6px 6px 14px 10px #c1c1c1;
+    border-top-left-radius: 500px 60px;
+    border-top-right-radius: 500px 60px;
+    border-bottom-left-radius: 500px 40px;
+    border-bottom-right-radius: 500px 40px;
+  }
+  .screen-outline{
+    background-image:url('https://i.imgur.com/sUrowfP.jpg');
+    background-size:cover;
+    order:2;
+    height:100%;
+    position:relative;
+    width:95%;
+    margin:auto;
+    margin-bottom:10px;
+    z-index:1000;
+  }
+  .screen-outline #status-bar{
+    height:20px;
+    background:rgba(0,0,0,0.5);
+    color:#fff;
+    display:flex;
+    font-size:0.8em;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .screen-outline #status-bar i{
+    padding:0px 3px;
+  }
+  .screen-outline #screen-body{
+    font-family: 'Montserrat', sans-serif;
+    display:flex;
+    position:absolute;
+    height:100%;
+    width:100%;
+    margin-bottom:100px;
+    flex-direction:column;
+    justify-content: space-between;
+  }
+  .screen-outline #screen-body .date-time{
+    color:#fff;
+    margin-top:30px;
+  }
+  .screen-outline #screen-body .date-time #clock{
+    font-size:28px;
+    display:inline-block;
+    width:100%;
+    text-align:center;
+  }
+  .screen-outline #screen-body .date-time #day{
+    font-size:16px;
+    width:100%;
+    display:inline-block;
+    text-align:center;
+  }
+  .screen-outline #screen-body #up-arrow{
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:10px;
+  }
+  .screen-outline #screen-body #up-arrow img{
+    height:12px;
+    width:12px;
+  }
+  .screen-outline #screen-body #bottom-icons{
+    height:50px;
+    margin-bottom:23px;
+    display:flex;
+    justify-content:space-around;
+  }
+  .screen-outline #screen-body #bottom-icons img{
+    height:38px;
+    width:38px;
+  }
+  .top-items{
+    flex-basis:54px;
+    background:#1e1e1e;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    order:1;
+    border-radius:8px 8px 0px 0px;
+    border-top-left-radius: 500px 60px;
+    border-top-right-radius: 500px 60px;
+  }
+  .center-top-items{
+    display:inline-block;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .top-items #light-indicator{
+    display:inline-block;
+    background:#f7f7f7;
+    width:7px;
+    height:7px;
+    border-radius:100%;
+    position:relative;
+  }
+  .top-items #light-indicator span{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:inline-block;
+    height:5px;
+    width:5px;
+    border-radius:100%;
+    background:#ededed;
+  }
+  .top-items #top-speaker{
+    display:inline-block;
+    width:50px;
+    height:6px;
+    border-radius:9px;
+    border-top:2px solid #666;
+    border-bottom:0.4px solid #666;
+    background:#333;
+    margin:0px 10px;
+  }
+  .top-items #camera{
+    display:inline-block;
+    border:2px solid #4f4f4f;
+    background:#3f3f3f;
+    height:10px;
+    width:10px;
+    border-radius:100%;
+    position:relative;
+  }
+  .top-items #camera span{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:inline-block;
+    height:2px;
+    width:2px;
+    border-radius:4px solid #606060;
+    background:#000;
+    border-radius:100%;
+  }
+  .bottom-items{
+    flex-basis:56px;
+    order:3;
+    background:#1e1e1e;
+    border-radius:0px 0px 8px 8px;
+    border-bottom-left-radius: 500px 40px;
+    border-bottom-right-radius: 500px 40px;
+    display:flex;
+    justify-content:space-around;
+  }
+  .bottom-items #square{
+    height:12px;
+    width:12px;
+    display:inline-block;
+    border-radius:3px;
+    border:2px solid #ccc;
+    margin-top:10px;
+  }
+  .bottom-items #home{
+    height:12px;
+    width:12px;
+    display:inline-block;
+    border-radius:100%;
+    border:2px solid #ccc;
+    margin-top:12px;
+  }
+  .bottom-items #triangle{
+    height:12px;
+    width:12px;
+    display:inline-block;
+    border-radius:3px;
+    border:2px solid #ccc;
+    margin-top:12px;
+    border-bottom-left-radius:12px;
+    border-top-left-radius:12px;
+  }
